@@ -4,18 +4,16 @@
 
 
 
-
-
-
-
-
 It’s tough to make predictions, especially about the future.
 -Yogi Berra
 
+Statistical learning:
+    - supervised:   building a statistical model for predicting / estimating an output
+                    based on one or more inputs
+    - unsupervised: inputs but no supervising output
 
 
-
-
+[Stoppped pg 5, brief history of statistical learning]
 
 
 
