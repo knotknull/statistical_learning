@@ -1,2 +1,45 @@
 
-# My notes for Statistical Learning with Python
+# My notes for An Introduction to Statistical Learning with Applications in Python
+
+
+
+
+
+
+
+
+
+It’s tough to make predictions, especially about the future.
+-Yogi Berra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
