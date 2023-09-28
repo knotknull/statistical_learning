@@ -13,31 +13,87 @@ Statistical learning:
     - unsupervised: inputs but no supervising output
 
 
-[Stoppped pg 5, brief history of statistical learning]
+
+
+pg 8 
+
+notations:
+ - n: represents the number of distinct data points 
+ - p: number of variables that are available for use in predictions
+
+
+Xij: represents the jth variable for the ith observation
+    where i = 1, 2, .... n
+    and   j = 1, 2, .... p
+
+        i == index the samples / observations ( 1 to n)
+        J == index the variables  ( 1 to p)
+        X == n x p matrix whose (i,j)th element is Xij
+
+
+             +- X11  X12  .... X1p  -+
+             |  X21  X22  .... X2p   | 
+        X =  |  .     .   .      .   | 
+             |  .     .    .     .   |
+             |  .     .      .   .   |
+             +- Xn1            Xnp  -+
+
+    "rows" of X are vectors of length p 
+       containing p variable measurements 
+    hence  Xi ==  vecotr of rows
+
+             +- Xi1 -+
+             |  Xi2  | 
+        Xi=  |  .    | 
+             |  .    |
+             |  .    |
+             +- Xip -+
+
+
+or XJ == vector columns of 
+
+             +- X1j -+
+             |  X2j  | 
+        Xj=  |  .    | 
+             |  .    |
+             |  .    |
+             +- Xnj -+
 
 
 
+XT == transpose matrix (flip on axis)
 
 
+             +- X11  X21  .... Xn1  -+
+             |  X12  X22  .... Xn2   | 
+        XT = |  .     .   .      .   | 
+             |  .     .    .     .   |
+             |  .     .      .   .   |
+             +- X1p   X2p      Xnp  -+
 
 
+multiplying two matrices A and B.
+
+    the (i, j) the element of AB is computed by 
+    multiplying each for (-->) of A by the corresponding
+    element of the jth column of B  |
+                                    v
+given 
+        A = [1  2]        B = [5  6]
+            [3  4]            [7  8]
 
 
+Then 
+
+AB =    [1  2]  *  [5  6]  == [1*5 + 2*7    1*6 + 2*8 ]  == [19  22]
+        [3  4]     [7  8]     [3*5 + 4*7    3*6 + 4*8 ]     [43  50] 
 
 
+NOTE: r x s matrix.  only possible of AB has number 
+      of columns in A is the same as the number of rows of B
+     
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+LAST HERE pg 11 ORGANIZATION OF THIS BOOK
 
 .
